@@ -107,3 +107,15 @@ A small general-purpose instance type such as `t3.small` or `t3.medium` would be
 
 ### Cost savings
 Costs can be reduced by using smaller instance types, scaling down non-production environments when not in use, and avoiding over-provisioning CPU and memory. Additional savings can come from cleaning up unused load balancers, container images, and other AWS resources after testing.
+
+## Screenshots
+
+Project evidence screenshots are stored in the `screenshots/` folder:
+
+- CodeBuild successful build
+- ECR repository with image tags
+- `kubectl get svc`
+- `kubectl get pods`
+- `kubectl describe svc postgresql-service`
+- `kubectl describe deployment coworking`
+- CloudWatch Container Insights logs
